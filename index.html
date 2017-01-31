@@ -7,13 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
-  <body>
+  <body ng-app='cuteApp'>
     <h1>My great app</h1>
+
+    <div ng-view>
+      
+    </div>
 
 
     <script src="lib/angular/angular.min.js"></script>
     <script src="lib/angular-route/angular-route.min.js"></script>
     <script src="lib/firebase/firebase.js"></script>
     <script src="app/app.js"></script>
+    <script src="app/controllers/homectrl.js"></script>
   </body>
 </html>
